@@ -43,9 +43,15 @@
       ]
     },
     "translateToLanguage": {
-      "order": 1,
+      "order": 2,
       "type": "string",
-      "default": "ja"
+      "default": "ja",
+      "description": "see [this list](https://github.com/matheuss/google-translate-api/blob/master/languages.js)"
+    },
+    "debug": {
+      "order": 3,
+      "type": "boolean",
+      "default": "false"
     }
   },
   "consumedServices": {
