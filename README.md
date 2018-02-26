@@ -4,10 +4,6 @@ Translate selected text via google translate then write output to normal editor 
 
 ![](abc)
 
-## Inspired
-
-[google-translate-modal](https://github.com/nju33/atom-google-translate-modal)
-
 ## Commands (IDEA)
 
 - `google-translate:translate`: Open translated text in different editor in dock or split-pane.
