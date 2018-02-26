@@ -2,7 +2,7 @@
 
 Translate selected text via google translate then write output to normal editor in dock or pane.
 
-![](??)
+![](abc)
 
 ## Inspired
 
