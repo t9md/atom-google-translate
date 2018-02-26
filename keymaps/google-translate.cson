@@ -1,0 +1,2 @@
+'atom-text-editor.google-translate-editor':
+  'cmd-w': 'core:close'

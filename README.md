@@ -1,8 +1,6 @@
 ## What's this?
 
-Translate selected text via google translate then write output to normal editor in dock or pane.
-
-![](abc)
+Translate selected text via google translate then write output to normal editor in dock or pane.  
 
 ## Commands (IDEA)
 
