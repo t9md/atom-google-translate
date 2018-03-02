@@ -35,21 +35,29 @@
     "openLocation": {
       "order": 1,
       "type": "string",
-      "default": "dock-bottom",
+      "default": "bottom",
       "enum": [
-        "center-right",
-        "center-down",
-        "dock-bottom"
+        "center",
+        "bottom"
+      ]
+    },
+    "split": {
+      "order": 2,
+      "type": "string",
+      "default": "right",
+      "enum": [
+        "right",
+        "down"
       ]
     },
     "translateToLanguage": {
-      "order": 2,
+      "order": 3,
       "type": "string",
       "default": "ja",
       "description": "see [this list](https://github.com/matheuss/google-translate-api/blob/master/languages.js)"
     },
     "debug": {
-      "order": 3,
+      "order": 4,
       "type": "boolean",
       "default": "false"
     }
@@ -76,6 +84,8 @@
     ]
   },
   "dependencies": {
-    "google-translate-api": "^2.3.0"
+    "atom-outlet": "^0.2.0",
+    "google-translate-api": "^2.3.0",
+    "google-translate-token": "^1.0.0"
   }
 }
