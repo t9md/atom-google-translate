@@ -21,7 +21,4 @@ Translate selected text via google translate then write output to normal editor 
 ```coffeescript
 'atom-text-editor.vim-mode-plus:not(.insert-mode)':
   'g t t': "vim-mode-plus-user:google-translate"
-
-'atom-workspace.has-google-translate atom-text-editor.vim-mode-plus.normal-mode':
-  'ctrl-g': 'google-translate:hide-output-editor'
 ```
