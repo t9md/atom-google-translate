@@ -27,6 +27,7 @@
       "google-translate:translate-with-replace",
       "google-translate:translate-with-insert-bottom",
       "vim-mode-plus-user:google-translate",
+      "vim-mode-plus-user:google-translate-paragraph",
       "vim-mode-plus-user:google-translate-with-replace",
       "vim-mode-plus-user:google-translate-with-insert-bottom"
     ]
@@ -50,14 +51,20 @@
         "down"
       ]
     },
-    "translateToLanguage": {
+    "translateTo": {
       "order": 3,
       "type": "string",
       "default": "ja",
       "description": "see [this list](https://github.com/matheuss/google-translate-api/blob/master/languages.js)"
     },
-    "debug": {
+    "translateToWhenTextContainsNonHalfWidthChar": {
       "order": 4,
+      "type": "string",
+      "default": "en",
+      "description": "see [this list](https://github.com/matheuss/google-translate-api/blob/master/languages.js)"
+    },
+    "debug": {
+      "order": 5,
       "type": "boolean",
       "default": "false"
     }
